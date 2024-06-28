@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakib Khan</title>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <script src="./app.js" defer></script>
+</head>
+<body class="bg-background">
+    <header class="text-white fixed top-0 right-0 left-0 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto bg-gray-800 md:bg-transparent">
+            <div class="flex items-center justify-between p-5">
+                <a href="./index.html" class="flex items-center gap-3 font-bold text-lg"><img src="./img/Logo.svg" alt="Logo">Portfolio</a>
+                <div class="hidden md:flex space-x-10">
+                    <a href="#" class="text-primary hover:text-gray-300">Home</a>
+                    <a href="#" class="hover:text-gray-300">Projects</a>
+                    <a href="#" class="hover:text-gray-300">Resume</a>
+                </div>
+                <div id="mobile-menu-btn" class="md:hidden">
+                    <button class="text-white text-2xl">
+                        <i class="bx bx-menu"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden ml-20">
+                <a href="#" class=" text-primary hover:text-gray-300 block py-2">Home</a>
+                <a href="#" class="hover:text-gray-300 block py-2">Projects</a>
+                <a href="#" class="hover:text-gray-300 block py-2">Resume</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-5 my-16 ">
+        <div class="py-12 text-white flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="md:w-1/2">
+                <p class="text-xl font-inter font-medium mb-4">Hello <span class="text-primary">I'm</span></p>
+                <h1 class="text-4xl font-bold tracking-[3.22px] mb-5 text-primary font-inter">Rakib Khan</h1>
+                <p class="text-2xl font-montserrat mb-5">Software Developer</p>
+                <p class="text-xl mb-12 md:w-3/4 text-justify leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex delectus odit accusamus temporibus quis eligendi dolores eveniet vero. Ullam at praesentium dolore iure ex adipisci quia sunt cumque laborum.</p>
+                <a href="./file/MD._Rakib_Khan_CV (1).pdf" class="py-4 px-10 bg-primary text-white font-bold hover:bg-sky-700 rounded" download="Rakib's Cv">Download CV</a>
+                <div class="mt-12 mb-8 flex gap-4 items-center">
+                    <p>Check out My:</p>
+                    <div class="flex space-x-3">
+                        <a href="#"><img src="./img/linkedIn.svg" alt="linkedIn" class="w-8 h-8"></a>
+                        <a href="#"><img src="./img/twitter.svg" alt="twitter" class="w-8 h-8"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 order-first md:order-none">
+                <img src="./img/home-right.png" alt="Banner" class="w-full md:ml-20">
+            </div>
+        </div>
+    </main>
+
+    <section class="max-w-7xl mx-auto px-5 my-16 text-white" >
+        <div class="text-center">
+            <p class="font-montserrat mb-3 font-medium">My Services</p>
+            <h3 class="text-primary text-3xl font-bold font-inter">What I do</h3>
+        </div>
+        <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12">
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./img/fron-end.svg" alt="Front-End" class="w-[196px] mb-12 mx-auto">
+                <h5 class=" my-5 text-xl text-center font-bold">Front-End Develop</h5>
+                <p class="text-justify ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium at quis possimus magni! Repellendus suscipit vitae eius! Sit, quod.</p>
+            </div>
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./img/back-end.svg" alt="back-end" class="w-[196px] mb-12 mx-auto">
+                <h5 class="my-5 text-xl text-center font-bold">Back-End Develop</h5>
+                <p class="text-justify ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium at quis possimus magni! Repellendus suscipit vitae eius! Sit, quod.</p>
+            </div>
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./img/ai.svg" alt="Front-End" class="w-[196px] mb-12 mx-auto">
+                <h5 class="my-5 text-xl text-center font-bold">Secure Your Software</h5>
+                <p class="text-justify ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum praesentium at quis possimus magni! Repellendus suscipit vitae eius! Sit, quod.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
