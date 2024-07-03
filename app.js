@@ -25,8 +25,8 @@ let tl = gsap.timeline({
     scrollTrigger: {
         trigger: '.skill-section',
         pin: true,
-        start: '45% 65%',
-        end: '200% 50%',
+        start: '50% 70%',
+        end: '300% 50%',
         scrub: true,
     }
 });
